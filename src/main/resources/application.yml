@@ -1,0 +1,9 @@
+logging:
+  level:
+    ROOT: INFO
+
+spring:
+  jackson:
+    deserialization:
+      fail-on-unknown-properties: true
+      fail-on-missing-creator-properties: true
